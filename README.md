@@ -43,16 +43,16 @@ Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Chi2, etc
 - Scaled numeric features such as no_of_employees, yr_of_estab, and prevailing_wage to ensure consistency in model training.
 - Power Transformation: Used power transformation to make features like prevailing_wage and no_of_employees more Gaussian-like for better model performance.
 
-* Exploratory Data Analysis (EDA):
+## Exploratory Data Analysis (EDA):
 - Analyzed trends in visa approval rates by continent, education level, and job experience, etc
 - Visualized the distribution of wages, employment, regions, etc to identify key factors influencing visa approvals.
 
-* Visualizations:
+## Visualizations:
 - Heatmaps for correlation
 - Bar plots and histograms for feature distribution
 - Box plots to check for outliers
 
-* Model Selection:
+## Model Selection:
 - Built multiple machine learning models, including:
 - Logistic Regression
 - Decision Tree
@@ -60,15 +60,15 @@ Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Chi2, etc
 - XGBoost, Adaboost, etc 
 - Applied cross-validation to assess the generalization of the models.
 
-* Evaluation:
-Evaluated the models using metrics like accuracy, precision, recall, and F1-score to account for class imbalance (approved vs. denied cases).
-Visualized the results using confusion matrices and ROC-AUC curves.
+## Evaluation:
+* Evaluated the models using metrics like accuracy, precision, recall, and F1-score to account for class imbalance (approved vs. denied cases).
+* Visualized the results using confusion matrices and ROC-AUC curves.
 
-* Results:
-Best Model is K-Nearest Neighbor(KNN) with Accuracy 97%. The model performed well in distinguishing between approved and denied visa applications.
+## Results:
+* Best Model is K-Nearest Neighbor(KNN) with Accuracy 97%. The model performed well in distinguishing between approved and denied visa applications.
 
-* Conclusions:
-The model identified that features like job experience, education level, and prevailing wage were significant factors in determining visa approval.
-This model can be integrated into a decision support system for OFLC to recommend visa approval based on historical data.
-Future improvements could include using additional external data like employer reputation and visa policy changes.
+# Conclusions:
+* The model identified that features like job experience, education level, and prevailing wage were significant factors in determining visa approval.
+* This model can be integrated into a decision support system for OFLC to recommend visa approval based on historical data.
+* Future improvements could include using additional external data like employer reputation and visa policy changes.
 
