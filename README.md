@@ -16,8 +16,8 @@ https://www.kaggle.com/datasets/moro23/easyvisa-dataset
 
 The dataset contains various features relevant to the visa application process:
 Columns:
-case_id: Unique ID for each application
-continent: Applicant's continent
+- case_id: Unique ID for each application
+- continent: Applicant's continent
 education_of_employee: Education level of the applicant
 has_job_experience: Whether the applicant has job experience (Yes/No)
 requires_job_training: Whether the job requires training (Yes/No)
