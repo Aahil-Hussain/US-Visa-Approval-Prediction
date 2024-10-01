@@ -36,7 +36,7 @@ Language: Python
 Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Chi2, etc
 
 # Approach:
-* Data Preprocessing:
+## Data Preprocessing:
 - Handled missing values, if any.
 - Performed a multicollinearity check using the Chi-squared (chi2) test to identify highly correlated features and remove those that did not contribute independently to the model’s performance.
 - Converted categorical features (like continent, education_of_employee, has_job_experience, etc.) into numerical representations using one-hot encoding or label encoding.
