@@ -1,4 +1,4 @@
-# USA-Visa-Approval-Prediction
+# USA-Visa-Approval-Prediction 
 
 # Problem Statement:
 The Office of Foreign Labor Certification (OFLC) reviews job certification applications from employers seeking to bring foreign workers to the United States. Due to the large volume of applications in recent years, OFLC requires a machine learning model to help shortlist visa applicants based on previous data.
